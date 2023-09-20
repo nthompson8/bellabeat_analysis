@@ -58,18 +58,144 @@ The queries used for analysis can be viewed [here](https://github.com/nthompson8
 
 
 ## Data Findings and Visualizations
-
+A dashboard with data visualizations can be viewed [here](https://public.tableau.com/views/bellabeatdata/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 ### User Tracking Frequency and Duration
 
-### User Activity Level
-Participants were classified by the avergae percent of the day they tracked.
+#### Proportion of Day Tracked
+Participants were classified by the average percent of the day they tracked.
 
 * 100%: Perfect Tracking
 
 * 75 - 99%: Consistent Tracking
 
 * Less than 75%: Less Consistent Tracking
+  
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Classification</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Count</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Perfect Tracking</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Consistent Tracking</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">20</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Less Consistent Tracking</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">11</span></td>
+  </tr>
+</tbody>
+</table>
 
+Users rarely tracked 100% of their day.
+
+#### Number of Records
+
+Participants were classified by the number of times they logged data over the course of the month.
+
+* 28 to 31 days: Consistent Users
+
+* 20 to 27 days: Regular Users
+
+* 15 to 19 days: On and Off Users
+
+* Less than 15 days: Sporadic User
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">User type</th>
+    <th class="tg-0lax">Count</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Consistent user</td>
+    <td class="tg-0lax">27</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Regular user</td>
+    <td class="tg-0lax">3</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">On and off user</td>
+    <td class="tg-0lax">2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Sporadic user</td>
+    <td class="tg-0lax">1</td>
+  </tr>
+</tbody>
+</table>
+
+Most users consistently tracked/wore their Fitbit and only missed a few days. 
+
+### User Activity Level
+
+#### CDC Step
+I was interested in seeing if and how participants met the CDC recommended daily step amount. I created four groups to categorize users based on CDC guidelines:
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Number of Steps</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Classification</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">10,000 or more</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Meets Recommendation</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">7,500 - 9,999</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Moderately Active</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5,000 - 7,499</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Somewhat Active</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">5,000 or less</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sedentary</span></td>
+  </tr>
+</tbody>
+</table>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Classification</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Count</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Meets Recommendation</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">8</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Moderately Active</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">9</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Somewhat Active</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">9</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sedentary</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">7</span></td>
+  </tr>
+</tbody>
+</table>
+
+Users are almost equally distributed between categories, with most being either moderately or somewhat active.
 ### Correlation Between Steps Taken, Calories Burned, and Distance Walked
 
 ### Steps, Calories Burned, Activity Level (Hourly, Daily, Weekly)
