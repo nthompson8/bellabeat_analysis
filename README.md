@@ -63,15 +63,33 @@ A dashboard with data visualizations can be viewed [here](https://public.tableau
 * Based on analysis of the average number of steps taken by hour, users take the least amount of steps from 12 to 5 AM, and the most amount of steps from 6 to 7 PM. This is not surprising, given that most people with a normal sleep schedule are alseep between 12 and 5  AM. 6 to 7 PM could have a higher average number of steps for a few reasons, like exercising or walking to various places after the workday.
 * There is a sharp increase from 5 to 8 AM, and a sharp decline after 8 PM.
 * When analyzing the average number of steps taken each weekday, it was found that Saturday had the most steps, and Sunday had the least.
+* 
+
+GRAPHS: HOURLY, DAILY
+
 ### Calories Burned
 * The results of analysis of average calories burned by hour is very similar to the step analysis, following the same pattern. Users burned the most calories from 5 to 7 PM, and the least from 12 to 4 AM.
 * Analysis of calories burned by day showed that users burned the most calories on Tuesday, and the least on Thursday.
+
+GRAPHS: HOURLY, DAILY
+
+
 ### Active Minutes
 * Most users had a very high number of sedentary minutes; a majority of users are sedentary for over half of the day.
 * Most users' average active minutes was under 30 minutes, which is below the general recommendation of exercising for at least 30 minutes a day.
+
+GRAPHS: BAR GRAPH OF TYPES OF MINUTES GROUPED BY ID
+
 ### Sleep
 * Although only 24 users tracked their sleep, valuable insights were still able to be derived from the data
 * Half of these users that tracked sleep were getting less than 7 hours a sleep a night (on average). The current recommendation is for adults to get 7 to 9 hours of sleep.
+
+GRAPHS: MINUTES ASLEEP BY ID
+
+### Correlations
+
+GRAPHS: STEP BY CALS, STEP BY SLEEP, ACTIVITY BY SLEEP
+
 ### User Tracking Frequency and Duration
 #### Overall Findings
 * Most participants used their Fitbit for at least 28 days (out of the 31 day range of dat a collection).
