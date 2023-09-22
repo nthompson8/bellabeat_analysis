@@ -237,13 +237,10 @@ I was interested in seeing if and how participants met the CDC recommended daily
 </tbody>
 </table>
 
-### Correlation Between Steps Taken, Calories Burned, and Distance Walked
+## Conclusion and Recommendations
+Based on the analysis findings, I recommend the following:
 
-### Steps, Calories Burned, Activity Level (Hourly, Daily, Weekly)
-
-
-## Solutions
-
-## Conclusion
-
-## Next Steps
+1. Implement a daily wellness score that takes multiple measures into account (steps, activity levels, sleep, etc.).
+2. Remind users to move every hour to avoid being too sedentary.
+3. Strongly recommend users to track sleep, since this is a key part of wellness.
+4. Gamify tracking and provide rewards.
