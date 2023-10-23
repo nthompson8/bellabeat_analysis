@@ -27,11 +27,11 @@ It appears to be a good dataset with a variety of measures that will be useful f
   </tr>
   <tr>
     <td>Hourly</td>
-    <td>Calories, Intensities, Steps</td>
+    <td>Calories, Intensities, Steps, Sleep</td>
 </table>
 
 ### Data Limitations and Credibility
-There was an unequal number of participants throughout the tables. The sleep table had 24 participants, and the weight table had 8 participants. Since the data from these two tables does not include all participants, I will not be using them for a general analysis.
+There was an unequal number of participants throughout the tables. The sleep table had 24 participants, and the weight table had 8 participants. I will use the sleep data since 75% of participants tracked it, and I will exclude the weight data.
 
 ## Data Processing
 
