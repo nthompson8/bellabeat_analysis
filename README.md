@@ -58,15 +58,15 @@ The queries used for analysis can be viewed [here](https://github.com/nthompson8
 
 
 ## Data Findings and Visualizations
-A dashboard with data visualizations can be viewed [here](https://public.tableau.com/views/bellabeatdata/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
 ### Steps
 * Based on analysis of the average number of steps taken by hour, users take the least amount of steps from 12 to 5 AM, and the most amount of steps from 6 to 7 PM. This is not surprising, given that most people with a normal sleep schedule are alseep between 12 and 5  AM. 6 to 7 PM could have a higher average number of steps for a few reasons, like exercising or walking to various places after the workday.
 * There is a sharp increase from 5 to 8 AM, and a sharp decline after 8 PM.
 * When analyzing the average number of steps taken each weekday, it was found that Saturday had the most steps, and Sunday had the least.
 
-![Avg Step Day](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/a96905f1-b464-4551-9980-032856fb4c07)
+![Avg Step Day](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/6b351bbb-edb0-43fa-be31-9f3820501f54)
 
-![Steps Hr](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/89e8c48a-86fd-41f4-b0fe-e39d2ad946c8)
+![Steps Hr](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/f8766b4e-434d-4038-88d3-60d39f4d0414)
+
 
 ### Calories Burned
 * The results of analysis of average calories burned by hour is very similar to the step analysis, following the same pattern. Users burned the most calories from 5 to 7 PM, and the least from 12 to 4 AM.
@@ -75,13 +75,15 @@ A dashboard with data visualizations can be viewed [here](https://public.tableau
 
 ![Cals Hr](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/2b72f773-2fc9-425a-a593-8983310a6fa9)
 
-![Avg Cal Day](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/73eea2cf-3b58-4c1b-bfaf-0ece31fecaf6)
+![Avg Cal Day-2](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/e74e60ae-4446-4fb7-b10d-0ae74ef7f6e6)
+
 
 ### Active Minutes
 * Most users had a very high number of sedentary minutes; a majority of users are sedentary for over half of the day.
 * Most users' average active minutes was under 30 minutes, which is below the general recommendation of exercising for at least 30 minutes a day.
 
-![Active Mins](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/2ece7080-3935-4b94-ae5a-d31b4e7b3fdf)
+![Active Mins-2](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/5e58a82d-97b8-4c8e-891c-5f12440df121)
+
 
 ![Sedentary](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/c7e21ea8-6a0d-41bf-8e58-56eb160aa5d8)
 
@@ -90,7 +92,7 @@ A dashboard with data visualizations can be viewed [here](https://public.tableau
 * Although only 24 users tracked their sleep, valuable insights were still able to be derived from the data
 * Half of these users that tracked sleep were getting less than 7 hours a sleep a night (on average). The current recommendation is for adults to get 7 to 9 hours of sleep.
 
-![Mins Asleep](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/641eb716-144a-4e07-b9a0-2bb4a8097fb0)
+![Mins Asleep](https://github.com/nthompson8/bellabeat_analysis/assets/143421620/d3923b1e-be9b-4b14-bebc-ac092e631c88)
 
 ### Correlations
 
